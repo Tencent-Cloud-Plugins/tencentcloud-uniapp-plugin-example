@@ -1,0 +1,202 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "腾讯云uni-app插件示例"
+			}
+		},
+		{
+			"path": "pages/cos/index",
+			"style": {
+				"navigationBarTitleText": "对象存储(COS)示例"
+			}
+		},
+		{
+			"path": "pages/sms/index",
+			"style": {
+				"navigationBarTitleText": "短信(SMS)示例"
+			}
+		},
+		{
+			"path": "pages/sms/sms",
+			"style": {
+				"navigationBarTitleText": "发送短信"
+			}
+		},
+		{
+			"path": "pages/sms/verification",
+			"style": {
+				"navigationBarTitleText": "验证码场景示例"
+			}
+		},
+		{
+			"path": "pages/sms/statistics",
+			"style": {
+				"navigationBarTitleText": "短信套餐包信息"
+			}
+		},
+		{
+			"path": "pages/ocr/index",
+			"style": {
+				"navigationBarTitleText": "OCR示例"
+			}
+		},
+		{
+			"path": "pages/vod/index",
+			"style": {
+				"navigationBarTitleText": "云点播(VOD)示例"
+			}
+		},
+		{
+			"path": "pages/ims/index",
+			"style": {
+				"navigationBarTitleText": "图片内容安全(IMS)示例"
+			}
+		},
+		{
+			"path": "pages/tms/index",
+			"style": {
+				"navigationBarTitleText": "文本安全(TMS)示例"
+			}
+		},
+		{
+			"path": "pages/captcha/index",
+			"style": {
+				"navigationBarTitleText": "验证码示例"
+			}
+		},
+		{
+			"path": "pages/tiia/index",
+			"style": {
+				"navigationBarTitleText": "图像分析示例"
+			}
+		},
+		{
+			"path": "pages/asr/index",
+			"style": {
+				"navigationBarTitleText": "语音识别示例"
+			}
+		},
+		{
+			"path": "pages/asr/sentenceRecognition",
+			"style": {
+				"navigationBarTitleText": "一句话识别示例"
+			}
+		},
+		{
+			"path": "pages/asr/recTask",
+			"style": {
+				"navigationBarTitleText": "录音文件识别示例"
+			}
+		},
+		{
+			"path": "pages/asr/realTime",
+			"style": {
+				"navigationBarTitleText": "实时语音示例"
+			}
+		},
+    {
+    	"path": "pages/soe/index",
+    	"style": {
+    		"navigationBarTitleText": "口语评测示例"
+    	}
+    },
+    {
+    	"path": "pages/httpdns/index",
+    	"style": {
+    		"navigationBarTitleText": "移动解析示例"
+    	}
+    },
+    {
+    	"path": "pages/tts/index",
+    	"style": {
+    		"navigationBarTitleText": "语音合成示例"
+    	}
+    },
+    {
+    	"path": "pages/tmt/index",
+    	"style": {
+    		"navigationBarTitleText": "机器翻译示例"
+    	}
+    },
+    {
+      "path" : "pages/tmt/textTranslate",
+      "style" : {
+        "navigationBarTitleText": "机器翻译示例-文本翻译"
+      }
+    },
+    {
+      "path" : "pages/tmt/textTranslateBatch",
+      "style" : {
+        "navigationBarTitleText": "机器翻译示例-批量文本翻译"
+      }
+    },
+    {
+    	"path": "pages/iai/index",
+    	"style": {
+    		"navigationBarTitleText": "人脸识别示例"
+    	}
+    },
+    {
+    	"path": "pages/iai/detectFace",
+    	"style": {
+    		"navigationBarTitleText": "人脸识别示例-人脸检测与分析"
+    	}
+    },
+    {
+    	"path": "pages/iai/compareFace",
+    	"style": {
+    		"navigationBarTitleText": "人脸识别示例-人脸比对"
+    	}
+    },
+    {
+    	"path": "pages/iai/detectLiveFace",
+    	"style": {
+    		"navigationBarTitleText": "人脸识别示例-人脸静态活体检测"
+    	}
+		},
+		{
+    	"path": "pages/faceid/index",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例"
+    	}
+		},
+		{
+    	"path": "pages/faceid/livenessRecognition",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例-活体人脸核身"
+    	}
+		},
+		{
+    	"path": "pages/faceid/livenessCompare",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例-活体人脸比对"
+    	}
+		},
+		{
+    	"path": "pages/faceid/imageRecognition",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例-照片人脸核身"
+    	}
+		},
+		{
+    	"path": "pages/faceid/checkIdCardInformation",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例-身份证人像照片验真"
+    	}
+		},
+		{
+    	"path": "pages/faceid/idCardOCRVerification",
+    	"style": {
+    		"navigationBarTitleText": "人脸核身示例-身份证识别及信息核验"
+    	}
+    }
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

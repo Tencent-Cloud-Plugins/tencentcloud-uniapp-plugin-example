@@ -1,0 +1,9 @@
+node_modules
+components
+static
+unpackage
+/cloudfunctions-tcb/tencentcloud-plugin/node_modules
+package.json
+package-lock.json
+mainfest.json
+README.md

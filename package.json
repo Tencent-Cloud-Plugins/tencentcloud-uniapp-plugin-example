@@ -1,0 +1,60 @@
+{
+  "name": "uniapp",
+  "version": "1.0.0",
+  "description": "##### uni-app腾讯云插件",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vod-js-sdk-v6": "^1.4.8",
+    "vod-wx-sdk-v2": "^1.0.1"
+  },
+  "scripts": {
+    "lint": "eslint --fix --ext .vue,.js,.jsx ./",
+    "lint:style": "stylelint **/*.{html,vue,jsx,css,sass,scss}",
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@tencent/eslint-config-tencent": "^0.12.2",
+    "@tencent/stylelint-config-tencent": "^1.0.0",
+    "babel-eslint": "^10.0.2",
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.1.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{html,vue,css,sass,scss,less,styl}": [
+      "stylelint --fix",
+      "git add"
+    ],
+    "*.{js,jsx,vue}": [
+      "prettier --write ./",
+      "eslint --ext .vue,.js,.jsx --fix ./",
+      "git add"
+    ]
+  }
+}
